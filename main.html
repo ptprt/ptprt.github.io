@@ -1,56 +1,68 @@
 <html>
-		<title>
-			5m
-		</title>
-	<head>
+<head>
+	<title>
+		5m
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<style>
-			body { 
-			height: 50%;
-			background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
-  
-    margin: 0; /* Убираем отступы */
-				-webkit-transform: translate(0, 0);
-				-webkit-transition: -webkit-transform 1000ms;
+</head>
+<body>
+<script src="/js.js"></script>
+<header>
 
-				transform: translate(0, 0);
-				transition: transform 1000ms;
-   }
-   .parent {
-    margin-top: 8%;
-	margin-left: 28%;
-	margin-right: 28%;	
-    background: #ffff80; /* Цвет фона */
-    padding: 10px; /* Поля вокруг текста */
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="#"><strong>RS</strong></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
+					aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Ссылки</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Профиль</a>
+					</li>
+				</ul>
+				<form class="form-inline">
+					<div class="md-form mt-0">
+						<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+					</div>
+				</form>
+			</div>
+		</div>
+	</nav>
+	<div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('https://images5.alphacoders.com/902/902023.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
 
+		<div class="mask rgba-purple-slight d-flex justify-content-center align-items-center">
 
-   } 
-   .child {
-    border: 3px solid #666; /* Параметры рамки */
-    padding: 10px; /* Поля вокруг текста */
-    margin: 10px; /* Отступы вокруг */
-   }
-   
-		</style>
-	</head>
+			<div class="container">
 
-	<body>
-	<div class="parent">
-	<div class="child">
-		<p align="center">Вход</p>
-		<form align='center'> 
-			<input type="text" class="form-control" placeholder="Логин" name="login"><br>
-			<input type="password" class="form-control" placeholder="Пароль" name="password"><br>
-			<button type="submit" class="btn btn-default btn-sm">Войти</button><br>
-			<button class="btn btn-default btn-sm">Регистрация</button><br>
-			
-			</form>
-		<input class="btn btn-default btn-sm" type="button" onclick="history.back();" value="back"/>
-		<input class="btn btn-default btn-sm" type="button" onclick="/main.html" value="main"/>
+				<div class="row wow fadeIn">
+
+					<div class="col-md-12 text-center">
+						<h1 class="display-4 font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInUp">test 123</h1>
+						<h5 class="pt-md-5 pt-sm-2 pt-5 pb-md-5 pb-sm-3 pb-5 wow fadeInUp" data-wow-delay="0.2s">asgfa fdgnag n edhshnsnhrtsjntrt rjnrmn rmnrym nrymnry </h5>
+						<div class="wow fadeInUp" data-wow-delay="0.4s">
+							<a class="btn btn-purple btn-rounded"><i class="fas fa-user left"></i> Sign up!</a>
+							<a class="btn btn-outline-purple btn-rounded"><i class="fas fa-book left"></i> Learn more</a>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
 	</div>
-	</div>
-	</body>
+
+</header>
+
+</body>
 </html>
